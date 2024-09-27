@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* corpo da página */
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #007BFF; /* Cor de fundo */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Cobrir a largura da página toda */
+    position: fixed; /* Fixar no topo da página */
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+nav img {
+    height: 50px;
+    margin-right: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: 700;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px;
+}
+
+/* Estilo principal */
+main {
+    max-width: 1200px;
+    margin: 100px auto 20px; 
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Imagens e textos lado a lado */
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content .text {
+    width: 70%;
+    text-align: justify;
+}
+
+/* Seção de dicas para turistas */
+.dicas-turista {
+    margin-bottom: 20px;
+}
+
+.dicas-turista h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Seção de cultura e tradições */
+.cultura-tradicoes {
+    margin-bottom: 20px;
+}
+
+.cultura-tradicoes h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Seção de mapa interativo */
+.mapa-interativo {
+    margin-bottom: 20px;
+}
+
+.mapa-interativo h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.mapa-interativo p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: thistle;
+    padding: 10px 0;
+}

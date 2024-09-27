@@ -1,0 +1,138 @@
+/* inicio do css da apgina index */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body.Conheça-suiça{
+    background-color: white;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+/* estilo do header */
+header {
+    background-color: #007BFF; /* Cor de fundo */
+    width: 100%;
+    padding: 10px 0;
+}
+/* centralizando os iten da header */
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* badeira da suiça */
+header .logo img {
+    max-width: 100px;
+}
+
+header .menu nav ul {
+    list-style-type: none;
+}
+
+header .menu nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: 700;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+/* botao da header */
+header .btn-contato button{
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+
+}
+/* efeito de transiçao ao passar o mouse */
+.menu nav a:hover {
+    transform: scale(1.05);
+    background-color: #0056b3;
+    border-radius: 5px;
+   
+}
+/* mudança de cor do butao */
+header .btn-contato button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* estilo do site */
+section.estilo-site {
+    height: 100vh;
+    background-image: url(/images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.estilo-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.estilo-site .txt-site h1 {
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 200;
+
+}
+
+.estilo-site .txt-site h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.estilo-site .txt-site h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-top: 100px;
+}
+
+/* Estilo de lugares */
+section.lugares{
+    padding: 80px 0;
+}
+.lugares .iens-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 10%;
+}
+.lugares .iens-conteiner .img-itens img{
+    max-width: 480px;
+}
+.lugares .iens-conteiner .txt-itens h2{
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.iens-conteiner .txt-itens h2 span{
+    font-weight: 300;
+}
+footer{
+    text-align: center;
+    background-color: thistle;
+}
+/* /Fim do css pagina index  */
